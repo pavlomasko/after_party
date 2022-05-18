@@ -6,6 +6,7 @@ AllCops:
     - db/schema.rb
     - config/**/*.rb
     - script/rails
+    - vendor/**/*.rb
   NewCops: enable
 
 Layout/LineLength:
