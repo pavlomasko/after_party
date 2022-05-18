@@ -3,10 +3,10 @@ AllCops:
     - '*.md'
     - 'Gemfile'
     - 'Gemfile.lock'
-    - db/schema.rb
-    - config/**/*.rb
-    - script/rails
-    - vendor/**/*.rb
+    - 'db/schema.rb'
+    - 'config/**/*.rb'
+    - 'script/rails'
+    - 'vendor/**/*.rb'
   NewCops: enable
 
 Layout/LineLength:
