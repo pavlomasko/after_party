@@ -6,20 +6,12 @@ AllCops:
     - db/schema.rb
     - config/**/*.rb
     - script/rails
+  NewCops: enable
 
-Layout/IndentationWidth:
-  Enabled: false
-
-Metrics/LineLength:
+Layout/LineLength:
   Max: 130
   Exclude:
     - '*.gemspec'
-
-Style/RescueModifier:
-  Enabled: false
-
-Layout/TrailingBlankLines:
-  Enabled: false
 
 Lint/UnusedBlockArgument:
   Exclude:
@@ -29,14 +21,11 @@ Style/BlockComments:
   Exclude:
     - 'spec/spec_helper.rb'
 
-Style/FrozenStringLiteralComment:
-  Enabled: false
-
 Metrics/BlockLength:
-  Exclude: 
+  Exclude:
     - 'spec/**/*.rb'
 
-Layout/AlignParameters:
+Layout/ParameterAlignment:
   EnforcedStyle: 'with_fixed_indentation'
 
 Layout/MultilineMethodCallIndentation:
@@ -46,14 +35,3 @@ Style/Documentation:
   Exclude:
     - 'db/migrate/*.rb'
     - 'spec/**/*.rb'
-
-# These may break ruby 1.9 support:
-
-Layout/IndentHeredoc:
-  Enabled: false
-
-Style/HashSyntax:
-  Enabled: false
-
-Style/ExpandPathArguments:
-  Enabled: false

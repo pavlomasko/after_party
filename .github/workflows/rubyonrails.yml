@@ -34,7 +34,7 @@ jobs:
         with:
           bundler-cache: true
       - name: Set up database schema
-        run: RAILS_ENV=test bundle exec rake db:migrate
+        run: RAILS_ENV=test bundle exec rake db:prepare
 
       # Add or replace test runners here
       - name: Run tests

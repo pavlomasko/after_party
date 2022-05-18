@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module AfterParty
   # Task Recorder is responsible for collecting pending tasks and recording their execution
   class TaskRecorder
